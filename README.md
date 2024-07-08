@@ -4,6 +4,18 @@
 
 This project is a simple Flask-based RESTful API designed to manage a library system. It supports user account creation, authentication, book management, customer management, and book borrowings.
 
+## Try Project Yourself
+
+### Links
+
+-   [Frontend added with Github](https://guyshalevwp.github.io/library_frontend/)
+-   [Frontend added with Netlify](https://jblibraryproject.netlify.app/)
+
+### Default users:
+
+-   **Admin**: Email: admin@admin.com, Password: 123@123
+-   **User**: Email: test@test.com, Password: 123@123
+
 ## Features
 
 -   User authentication and authorization
@@ -60,8 +72,6 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
-
-_If there's no data in library.db, in app.py there're Default setups (run the app first)_
 
 ## Usage
 

@@ -128,7 +128,7 @@ const deactivateAccount = async () => {
             localStorage.removeItem('token');
             localStorage.removeItem('user');
             localStorage.removeItem('role');
-            window.location.href = '../../index.html';
+            window.location.href = '/';
         } else {
             showError('Failed to deactivate account');
         }

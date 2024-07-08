@@ -40,10 +40,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Redirect to home page after showing the modal for 3 seconds
         setTimeout(() => {
             const currentPath = window.location.pathname;
-            if (currentPath.endsWith('index.html') || currentPath === '/') {
-                window.location.href = 'index.html';
+            if (currentPath.endsWith('/') || currentPath === '/') {
+                window.location.href = '/';
             } else {
-                window.location.href = '../../index.html';
+                window.location.href = '/';
             }
         }, 3000); // Adjust the timeout duration as needed
     };
