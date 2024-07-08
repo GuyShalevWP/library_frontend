@@ -48,7 +48,7 @@ const login = async () => {
 
             // Wait for 2 seconds before redirecting
             setTimeout(() => {
-                window.location.href = '/';
+                window.location.href = '../../index.html';
             }, 2000);
         } else {
             showError('Invalid email or password');
