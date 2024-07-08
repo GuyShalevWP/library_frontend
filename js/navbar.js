@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (currentPath.endsWith('index.html') || currentPath === '/') {
                 window.location.href = 'index.html';
             } else {
-                window.location.href = 'index.html';
+                window.location.href = '../../index.html';
             }
         }, 3000); // Adjust the timeout duration as needed
     };
