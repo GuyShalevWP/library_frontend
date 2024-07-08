@@ -1,4 +1,5 @@
 const SERVER = 'https://library-flask-backend.onrender.com';
+const token = localStorage.getItem('token');
 
 const showMessage = (msg, type) => {
     const message = document.getElementById('messageModalBody');
@@ -147,3 +148,4 @@ const register = async () => {
         showError(errorMessage);
     }
 };
+
